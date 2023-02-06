@@ -1,0 +1,144 @@
+html {
+    font-size: 22px;
+}
+body {
+    background-color: #333;
+    color:whitesmoke
+}
+
+.link{
+    color: aliceblue
+}
+.link:visited{
+    color:lightgray
+}
+.link:hover, .link:active{
+    color: #eee;
+}
+.Heat {
+
+    width: 95%;
+    height: 25%;
+    padding: 24px 20px;
+    margin: 4px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    border-radius: 12px;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+}
+.Time {
+    display: inline-block;
+    width: 11%;
+    height: 20%;
+    padding: 24px 20px;
+    margin: 4px;
+    box-sizing: border-box;
+    border: 5px solid orangered;
+    border-radius: 12px;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+}
+::placeholder{
+    color: red;
+    opacity: .3;
+}
+#Heatparent {
+
+    display: inline-block;
+    width: 40%;
+    height: 52%;
+    overflow-x: clip;
+}
+
+#Timeparent {
+
+    display: inline-block;
+    width: 100%;
+    height: 20%;
+    overflow-x: clip;
+}
+#myChart{
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    display: inline-block;
+    width: 60%; 
+    height: 600px;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+#submit{
+    width: 38%;
+    border-radius: 12px;
+    padding: 24px 20px;
+    margin: 4px;
+    font-family: Helvetica;
+    text-align: center;
+    background-color: #4CAF50;
+    border: 4px solid #000000;
+    color: white; padding: 30px 64px;
+    font-size: 32px; margin: 8px 4px; 
+    cursor: pointer;
+}
+#Cp{
+    display: block;
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+.ripple{
+    position: relative;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,#50ff41,#e25252);
+}
+.stap{
+    width: 40%;
+    aspect-ratio: 10/1;
+    border-radius: 40px;
+    overflow-x: hidden;
+}
+#start{
+    width: 50%;
+    height: 100%;
+    background-color: #50ff41;
+    border: #50ff41;
+    opacity: 1;
+    font-size: 50px;
+}
+#stop{
+    width: 50%;
+    height: 100%;
+    background-color: #ff4141;
+    border: #ff4141;
+    font-size: 50px;
+}
+.stopwatch{
+    font-size: 40px;
+    top: 0%;
+    font-family: Helvetica;
+}
+.stats{
+    position: absolute;
+    padding: 20px 20px;
+    top: 870px;
+    border: 8px solid #000000;
+    border-radius: 20px;
+    background: #2cdfff;
+    width: 57%;
+    height: 5%;
+    left: 40%;
+
+}
+#timer{
+    display: inline-block;
+}
+#thermometer{
+    display: inline-block;
+}
